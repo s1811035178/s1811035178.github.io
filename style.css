@@ -1,0 +1,84 @@
+section{
+    height: 500px;
+}
+body{
+    margin: 0px;
+}
+h1{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 50px;
+}
+.highlight{
+    color: darkgreen;
+}
+.highlight1{
+    font-size: 30px;
+    color: darkgreen;
+}
+.top-banner{
+    background-image: url("devoloper-portfolio/top-banner.png");
+    background-repeat:no-repeat;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+    
+}
+.half-width img{
+    width: 100%;
+
+}
+
+.linked-tab{
+    text-decoration: none;
+    background-image: linear-gradient(lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+.dream-area{
+    background-image: url(devoloper-portfolio/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width1{
+    width: 40%;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.half-width1 h2{
+    font-family: fantasy;
+}
+.s-experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 60%;
+}
+.experience{
+    background-image: url(devoloper-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 8%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon,rgb(253, 75, 44));
+    border-image-slice: 1;
+}
+#full-stack1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,tomato);
+    border-image-slice: 1;
+}
+.f p{
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+}
