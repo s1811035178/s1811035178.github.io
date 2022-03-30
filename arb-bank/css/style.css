@@ -1,0 +1,55 @@
+body{
+    padding: 100px;
+}
+.bank-title{
+    text-align: center;
+    color:maroon;
+}
+.submit-area{
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+.submit-button{
+    background-color: rgb(82, 70, 190);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px purple;
+    
+}
+#transaction-area{
+    display: none;
+}
+.deposit{
+    background-color: lightsalmon;
+    border: 10px;
+    border-radius: 5px 5px gray;
+}
+.withdrow{
+    background-color: lightcoral;
+}
+.balance{
+    background-color: green;
+}
+.status{
+    padding: 20px;
+    margin: 0 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+}
+.footer{
+    color: darkgreen;
+    text-align: right;
+    padding-top: 10px;
+}
+.footer1{
+    text-align: center;
+    color: red;
+    padding-top: 20px;
+}
+#hidebalance{
+    background-color: darkgreen;
+    border-radius: 8px;
+    box-shadow: 2px 2px darkgreen;
+}

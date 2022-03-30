@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARB Bank</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id = "login-area">
+        <h1 class="bank-title">Welcome to ARB Bank</h1>
+        <div class="submit-area">
+            <h4>Username</h4>
+            <input id="emailform" type="text" class="form-control" placeholder="Email/Username">
+            <br>
+            <h4>Password</h4>
+            <input value="7" id="passwordform" type="password" class="form-control" id=""placeholder="Password" ><br>
+            <button id="login" class="submit-button">Log in</button>
+        </div>
+    </div>
+    <div id = 'transaction-area'>
+        <div class="row">
+            <div class="col-md-4 ">
+                <div class="deposit status">
+                <h5>Deposit</h5>
+                <h2>$ <span id='currentDeposit'>00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="withdrow status">
+                <h5>Withdrow</h5>
+                <h2>$ <span id="currentwithdrow">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div id = "newbalance" class="balance status">
+                <h5 id='balanceclick'>Balance</h4>
+                <h2 id='balancehide'>$ <span id ='balance'>1240</span></h2>
+                <button  id="hidebalance">Hide</button>
+                </div>
+            </div>
+        </div>
+        <!--button er jonno use kora hoyche-->
+        <div class="row">
+            <div class="col-md-6 submit-area">
+                <h4>Deposit</h4>
+              
+                <input id='depositAmount' type="text" class="form-control" placeholder="$ deposit amount"><br>
+                <button id='addDeposit' class="submit-button">Deposit</button>
+            </div>
+            <div class="col-md-6 submit-area">
+                <h4>Withdrow</h4>
+                <input id = "withdrowamount"type="text" class="form-control" placeholder="$ withdwrow amount"><br>
+                <button id="getwithdrow" class="submit-button">Withdrow</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h6> আস্থা ও বিশ্বাস এর প্রতীক</h6>
+        <p class="footer1">&copy 2021 All Right Reserved</p>
+
+    </div>
+
+    
+
+
+    <script src="function.js"></script>
+    <style type="text/css" src="js/bootstrap.min.js"></style>
+    <style type="text/css" src="js/jquery-3.5.1.min.js"></style>
+</body>
+</html>
