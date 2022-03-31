@@ -1,0 +1,67 @@
+.btn1{
+    background: none;
+    border: none;
+}
+.bg-orange{
+    background-color: #fceae8;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 130px;
+}
+.center{
+    padding-left: 60px;
+    color: rgb(209, 15, 112);
+}
+.btn-primary{
+    background-image: linear-gradient(to bottom,#ff5898, #ff136f 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    
+}
+.cat1{
+    background-color: yellow;
+
+}
+.cat2{
+    background-color: wheat;
+}
+.cat3{
+    background-color: lightblue;
+}
+.catagories{
+    margin-top: 50px;
+    color: #ff136f;
+}
+.catagories img{
+    width: 100px;
+}
+.cat1,.cat2,.cat3{
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.card{
+    border: none;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px  rgb(110, 110, 110);
+}
+.textShoes{
+    padding-top: 20px;
+    color: orange
+}
+.subscribe{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.padding{
+    padding-top: 25px;
+}
+.footer{
+    text-align: center;
+}
